@@ -7,3 +7,6 @@ const numbers = [...numbers1, ...numbers2];
 
 // Step 3: Define an arrow function called square that accepts a number as an argument and returns the square of the number
 const square = num => num * num;
+
+// Step 4: Use the map method to create a new array called squares that contains the squares of the numbers in the numbers array
+const squares = numbers.map(square);
