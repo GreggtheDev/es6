@@ -4,3 +4,6 @@ const numbers2 = [6, 7, 8, 9, 10];
 
 // Step 2: Use the spread operator to create an array called numbers that combines the elements of numbers1 and numbers2
 const numbers = [...numbers1, ...numbers2];
+
+// Step 3: Define an arrow function called square that accepts a number as an argument and returns the square of the number
+const square = num => num * num;
