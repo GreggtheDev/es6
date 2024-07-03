@@ -10,3 +10,6 @@ const square = num => num * num;
 
 // Step 4: Use the map method to create a new array called squares that contains the squares of the numbers in the numbers array
 const squares = numbers.map(square);
+
+// Step 5: Define an arrow function called isEven that accepts a number as an argument and returns true if the number is even, otherwise false
+const isEven = num => num % 2 === 0;
