@@ -19,3 +19,10 @@ const evenSquares = squares.filter(isEven);
 
 // Step 7: Use destructuring assignment to extract the first and second elements of the evenSquares array into constants firstEvenSquare and secondEvenSquare
 const [firstEvenSquare, secondEvenSquare] = evenSquares;
+
+// Step 8: Use a template literal to log the original numbers array, the squares array, the evenSquares array, and the extracted even squares
+console.log(`Original numbers array: ${numbers}`);
+console.log(`Squares array: ${squares}`);
+console.log(`Even squares array: ${evenSquares}`);
+console.log(`First even square: ${firstEvenSquare}`);
+console.log(`Second even square: ${secondEvenSquare}`);
