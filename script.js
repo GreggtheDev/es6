@@ -16,3 +16,6 @@ const isEven = num => num % 2 === 0;
 
 // Step 6: Use the filter method to create a new array called evenSquares that contains only the even squares from the squares array
 const evenSquares = squares.filter(isEven);
+
+// Step 7: Use destructuring assignment to extract the first and second elements of the evenSquares array into constants firstEvenSquare and secondEvenSquare
+const [firstEvenSquare, secondEvenSquare] = evenSquares;
